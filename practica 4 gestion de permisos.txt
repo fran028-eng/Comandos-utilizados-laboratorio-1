@@ -1,0 +1,45 @@
+practica 4
+
+ chmod 700 estudiante.txt
+     ls
+     pwd
+     ls
+     vi estudiante.txt
+     LS
+     ls
+     pwd
+     vi estudiante.txt
+     ls
+     cat
+     clear
+     ls
+     vi estudiantes.txt
+     ls
+     chmod 700 estudiantex.txt
+     chmod 700 estudiantes.txt
+     ls -l
+     clear
+     mkdir materia2
+     cp materia/estudiantes.txt materia2/
+     ls
+     cd materia2
+     pwd
+     cd ..
+     ls
+     rmdir materia2
+     ls
+     cd ..
+     pwd
+     ls
+     mkdir materia2
+     cp materia/estudiantes.txt materia2/
+     ls
+     cd materia2
+     ls
+     rm -r materia
+     pwd
+     cd ..
+     ls
+     re -r materia
+     rm -r materia
+     ls
