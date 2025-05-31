@@ -1,0 +1,29 @@
+practica 2 
+
+ pwd
+      cd francisco
+      clear
+      ip a
+      nmcli con show
+      nmcli con mod "Wired connection 1" ipv4.addresses 192.168.1.100/24
+      nmcli con mod "Wired connection 1" ipv4.gateway 192.168.1.1
+      nmcli con mod "Wired connection 1" ipv4.dns "8.8.8.8.4.4"
+      nmcli con mod "Wired connection 1" ipv4.dns "8.8.8.8.8.8.4.4"
+     nmcli con mod "Wired connection 1" ipv4.dns "8.8.8.8"
+     nmcli con mod "Wired connection 1" ipv4.method manual
+     nmcli con down "Wired connection 1" ipv4.method  && mncli con up "Wired connection"
+     clear
+     ip a
+     nmcli con show
+     nmcli con down "Wired connection 1" ipv4.method  && mncli con up "Wired connection 1"
+     mncli con up "Wired connection 1"
+     nmcli con up "Wired connection 1"
+     ip a
+     nmcli con mod "Wired connection 1" ipv4.method auto
+     nmcli con down "Wired connection 1"
+     nmcli con up "Wired connection 1"
+     ip a
+     clear
+     nmtui
+     ip a
+     clear
